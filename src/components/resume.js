@@ -16,7 +16,7 @@ class Resume extends Component {
               <img
                 src={LMAImg}
                 alt="Loae Monla Ahmed"
-                style={{height: '200px'}}
+                style={{height: 'auto'}}
                  />
             </div>
 
