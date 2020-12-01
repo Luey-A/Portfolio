@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import LMAImg from "./Images/LMAImg.jpg";
 
 
 class Resume extends Component {
@@ -13,23 +14,23 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{height: '200px'}}
+                src={LMAImg}
+                alt="Loae Monla Ahmed"
+                style={{height: 'auto'}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Luey Ahmed</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
+            <h2 style={{paddingTop: '2em'}}>Loae Monla Ahmed</h2>
+            <h4 style={{color: 'grey'}}>Junior developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>Junior front-end web developer with a passion for learning new things and implementing what I have learned to teach and help people. With experience in React, JavaScript, Object Oriented Programming, CSS, and HTML. I am a positive and supportive member of any team and I bring strong skills in team building and project management from my experience in working in different teams throughout my 6 years of working in humanitarian aid. Whilst having the ability and confidence to work independently and under high pressure. I have strong communication and language skills, with fluency in Arabic, English and Turkish. I am a very organized and structured person, who continuously strives to develop his professional skills, and improve his work performance.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>Değirmiçem mah. Özgürlük cad. Şebnem apart No:4/9</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>+90 536 437 4843</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>lueymnla@gmail.com</p>
             <h5>Web</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -39,53 +40,61 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2012}
+              endYear={2016}
+              schoolName="Kilis 7 Aralık University"
+              schoolDescription="4 years Business Administration bachelor"
                />
 
                <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                 startYear={2011}
+                 endYear={2012}
+                 schoolName="Ankara Gazi Tömer"
+                 schoolDescription="Turkish Language"
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
               <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2018}
+              endYear={"Current"}
+              jobName="Program Officer – Food Security and Livelihoods department"
+              jobDescription="Ihsan for Relief and Development/ Gaziantep/ Turkey"
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2017}
+                endYear={2017}
+                jobName="Program Manager - Mental Health and Psychosocial Support department"
+                jobDescription="International Medical Corps/ Gaziantep/ Turkey"
                 />
+
+              <Experience
+                startYear={2014}
+                endYear={2017}
+                jobName="Program Officer - Mental Health and Psychosocial Support department"
+                jobDescription="International Medical Corps/ Gaziantep/ Turkey"
+                />
+                
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
                 skill="javascript"
-                progress={100}
+                progress={80}
+                />
+              <Skills
+                skill="React"
+                progress={80}
                 />
                 <Skills
                   skill="HTML/CSS"
-                  progress={80}
+                  progress={75}
                   />
                   <Skills
                     skill="NodeJS"
                     progress={50}
                     />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
 
 
           </Cell>

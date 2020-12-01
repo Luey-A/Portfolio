@@ -15,14 +15,16 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Fortune Found project</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            The project was designed simply to help people help each other. We all know that people always will have extra staff that they don’t need and the same people will also always have staff that they need so this app helps them to exchange these staff and cover those needs.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button onClick={() => window.open("https://github.com/Luey-A/capstone-istanbul-from_garbage_to_gift")}
+                      colored>GitHub</Button>
+              <Button onClick={() => window.open("https://garbage2gift.netlify.app/")}
+                      colored>Live Demo</Button>
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -31,14 +33,16 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Borad project</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            Creating a space for friends, colleagues, random people to share their events and connect through this board. On the other hand, it is a tool to help the user manage their events.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button onClick={() => window.open("https://github.com/Luey-A/Board-Project")}
+                      colored>GitHub</Button>
+              <Button onClick={() => window.open("")}
+                      colored>Live Demo</Button>
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -47,14 +51,34 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Movie project</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            A website to show the latest movies that provides information about each movie and help the user to choose the movie they would like and have a nice movie night at home.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+            <Button onClick={() => window.open("https://github.com/Luey-A/recoded-mad-libz")}
+                      colored>GitHub</Button>
+              <Button onClick={() => window.open("")}
+                      colored>Live Demo</Button>
+              {/* <Button colored>Live Demo</Button> */}
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project 4 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Mad libs project</CardTitle>
+            <CardText>
+            Easy and fun game to play through filling empty words in sentences. Write a story and watch it become funny.
+            </CardText>
+            <CardActions border>
+            <Button onClick={() => window.open("https://github.com/Luey-A/recoded-mad-libz")}
+                      colored>GitHub</Button>
+              <Button onClick={() => window.open("")}
+                      colored>Live Demo</Button>
+              {/* <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -64,18 +88,18 @@ class Projects extends Component {
 
 
       )
-    } else if(this.state.activeTab === 1) {
-      return (
-        <div><h1>This is Angular</h1></div>
-      )
-    } else if(this.state.activeTab === 2) {
-      return (
-        <div><h1>This is VueJS</h1></div>
-      )
-    } else if(this.state.activeTab === 3) {
-      return (
-        <div><h1>This is MongoDB</h1></div>
-      )
+    // } else if(this.state.activeTab === 1) {
+    //   return (
+    //     <div><h1>This is Angular</h1></div>
+    //   )
+    // } else if(this.state.activeTab === 2) {
+    //   return (
+    //     <div><h1>This is VueJS</h1></div>
+    //   )
+    // } else if(this.state.activeTab === 3) {
+    //   return (
+    //     <div><h1>This is MongoDB</h1></div>
+    //   )
     }
 
   }
@@ -87,9 +111,9 @@ class Projects extends Component {
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>React</Tab>
-          <Tab>Angular</Tab>
+          {/* <Tab>Angular</Tab>
           <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>MongoDB</Tab> */}
         </Tabs>
 
 
