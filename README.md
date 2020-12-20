@@ -1,6 +1,24 @@
 # Visit my portfolio 
 Netlify link (https://luey-a-portfolio.netlify.app)
 
+# General info?
+It is a project to display samples of my work, details about myslef, my completed projects in the past.
+
+# Technologies used
+- JavaScript (React) 
+- HTML
+- CSS
+
+# Table of contents
+- Landingpage
+- Resume
+- About me 
+- Projects
+- Contact
+
+# Project status
+Under development
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
