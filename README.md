@@ -2,7 +2,7 @@
 Netlify link (https://luey-a-portfolio.netlify.app)
 
 # General info?
-It is a project to display samples of my work, details about myslef, my completed projects in the past.
+It is a project to display samples of my work, details about myself, my completed projects in the past.
 
 # Technologies used
 - JavaScript (React) 
