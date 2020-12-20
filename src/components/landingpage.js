@@ -25,7 +25,7 @@ class Landing extends Component {
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/loae-monla-ahmad-a28710a9/" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/loae-monla-ahmed-a28710a9/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
@@ -35,7 +35,7 @@ class Landing extends Component {
           </a>
 
           {/* Facebook */}
-          <a href="https://www.facebook.com/luey.ahmad/" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.facebook.com/Loae.M.Ahmed/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-facebook" aria-hidden="true" />
           </a>
 

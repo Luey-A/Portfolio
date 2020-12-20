@@ -15,7 +15,8 @@ class Contact extends Component {
               alt="Loae Monla Ahmed"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Loae lives in Gaziantep, Turkey. He began his professional career working in humanitarian sector in International and local Non-Governmental Organizations.</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Loae lives in Gaziantep, Turkey.</p>
+             <p>A humanitarian worker & a passionate junior developer.</p>
 
           </Cell>
           <Cell col={6}>
